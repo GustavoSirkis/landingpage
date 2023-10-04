@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,900;1,300;1,400;1,500;1,600;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* GLOBAL */
+body {
+    font-family: 'Roboto';
+    background-color: #d1d1d1;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+
+
+
+/* BARRA DE NAVEGAÇÃO */
+
+.nav-container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #4d4d4d4a;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;    
+  }
+
+  
+  .nav-container .nav-title {
+    padding-left: 1rem;      
+  }
+  .nav-container .nav-title img {
+    width: 15%;
+  }
+  
+  .nav-container .nav-btn {
+    display: none;
+  }
+  
+  .nav-container .nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;  
+    font-size: 1.2rem;
+  }
+  
+  .nav-container .nav-links a {
+    text-decoration: none;
+    color: #efefef;
+  }
+  
+  .nav-container .nav-links a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: .8rem;
+    border-radius: 6px;
+  }
+  
+  .nav-container  #nav-check {
+    display: none;
+  }
+
+  /* RESPONSIVIDADE BARRA DE NAVEGAÇÃO */
+  @media (max-width: 768px) {        
+    .nav-container  .nav-btn {
+        display: block;       
+    }
+    .nav-container  .nav-btn label {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+  
+    .nav-container  .nav-btn label:hover,.nav  #nav-check:checked ~ .nav-btn label {
+      background-color: rgba(0, 0, 0, 0.3);
+      border-radius: 6px;      
+    }
+    .nav-container .nav-btn label span {
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+    .nav-container  .nav-links {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;   
+        width: 100%;
+        background-color: #333;
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 5rem;
+        left: 0;        
+    }
+    .nav-container  .nav-links a {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;    
+      
+    }
+    .nav-container  #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav-container #nav-check:checked ~ .nav-links {
+      height: calc(50vh - 50px);
+      overflow-y: auto;
+    }
+  }
+
+/*   FORMULÁRIO  */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical 
+}
+
+/* BOTÃO */
+
+input[type=submit] {
+  background-color: #4d4d4d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #4d4d4d92;
+}
+
+.button {
+  background-color: #4d4d4d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+.button:hover {
+  background-color: #4d4d4d92;
+}
