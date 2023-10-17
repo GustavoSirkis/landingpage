@@ -103,7 +103,7 @@ h1, h2 {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-image: url(../public/assets/images/bg_header.png);
+    background-image: url(../public/assets/images/bg_header_leve.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -362,7 +362,7 @@ h1, h2 {
     }
 
     .details h3 {
-      padding: 1rem;
+      padding: .5rem;
     }
 
     .details p {
@@ -374,7 +374,7 @@ h1, h2 {
 
     .details img {
       width: 60%;
-      padding: 2rem;
+      padding: 1rem;
     }
 
     .details > .details-button {
@@ -401,9 +401,20 @@ h1, h2 {
 
     .details  ul {
       text-align: left;
-      margin: 1rem;
+      margin: .5rem;
     }
 
+
+    @media screen and (max-width: 426px ) {
+      .details p {
+        width: 80%;
+       }
+      
+      .details img {
+        width: 80%;
+       }
+       
+    }
     
 
 
