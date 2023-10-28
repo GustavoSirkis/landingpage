@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,900;1,300;1,400;1,500;1,600;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* GLOBAL */
+:root {
+
+  --white: #fff;
+  --white-alt: #fafafa;
+  --black: #2d2d2d;
+  --gray: #555;
+  --blue-light: #138dc1;
+  --blue-dark: #0072bc;
+  --green: #52a476;
+  --yellow: #fff200;
+
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+font-family: 'Roboto';
+font-size: 1.6rem;
+background-color: var(--white);
+color: var(--black);
+}
+
+* {
+box-sizing: border-box;
+margin: 0px;
+}
+
+a {
+text-decoration: none;
+color: unset;
+}
+
+h1, h2 {
+font-weight: 700;
+
+}
+
+h3 {
+font-weight: 600;
+
+}
+p {
+  line-height: 1.5;
+}
+
+.button {
+padding: 1.2rem 6rem;
+font-weight: 500;    
+border-radius: 3rem;
+display: flex;
+align-items: center;
+justify-content: center;
+box-shadow: .2rem .2rem #2121210f;
+
+}
+.button:hover {
+box-shadow: .2rem .2rem #21212152;   
+}
+
