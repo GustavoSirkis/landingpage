@@ -16,6 +16,7 @@
 
 .s-wrap {
   width: 100%;
+  margin: 0 auto;
   margin-bottom: 50px;
   padding-bottom: 55%;
   position: relative;
@@ -44,24 +45,25 @@
   width: 20%;
   height: 100%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 .s-wrap .s-item-1 {
-  background-image: url("../assets/images/Maria_Lopes_testemonial.png");
+  background-image: url("../assets/images/depo_01.png");
  
 }
 .s-wrap .s-item-2 {
-  background-image: url("../assets/images/carmen_testemonial.png");
+  background-image: url("../assets/images/depo_02.png");
 }
 .s-wrap .s-item-3 {
-  background-image: url("../assets/images/glaucia_testemonial.png");
+  background-image: url("../assets/images/depo_03.png");
 }
 .s-wrap .s-item-4 {
-  background-image: url("../assets/images/Alessandra_testemonial.png");
+  background-image: url("../assets/images/depo_04.png");
 }
 .s-wrap .s-item-5 {
-  background-image: url("../assets/images/Gustavo_testemonial.png");
+  background-image: url("../assets/images/depo_05.png");
 }
+
 
 .s-type-1 .s-control {
   position: absolute;
@@ -125,6 +127,7 @@
 }
 .s-type-1 #s-1:checked ~ .s-nav .s-nav-1 {
   display: block;
+
 }
 .s-type-1 #s-2:checked ~ .s-content {
   transform: translateX(-20%);
@@ -153,6 +156,7 @@
 .s-type-1 #s-4:checked ~ .s-nav .s-nav-4 {
   display: block;
 }
+
 .s-type-1 #s-5:checked ~ .s-content {
   transform: translateX(-80%);
 }
@@ -162,6 +166,7 @@
 .s-type-1 #s-5:checked ~ .s-nav .s-nav-5 {
   display: block;
 }
+
 
 @keyframes slider-animation {
   0%,
