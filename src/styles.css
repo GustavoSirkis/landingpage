@@ -128,7 +128,7 @@
     .header-container {
       background-image: url(./public/assets/images/bg_header_mobile.png);  
       width: 100%;  
-      padding: 4rem;    
+      padding: 2rem;    
     }
     .header-container > .header-section {
       padding: 0;
