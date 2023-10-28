@@ -112,12 +112,14 @@
 }  
 
 .header-container > .header-section > .header-button {
-  color: var(--white-alt);
+    color: var(--white-alt);
     background-color: var(--green);
-    display: flex;
-    flex-direction: column;
-}
-.header-container >   .header-section > .header-button:hover {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+.header-container > .header-section > .header-button:hover {
     background-color: var(--blue-light);
 }
 
@@ -142,10 +144,11 @@
     .header-container > .header-section > p {
       width: 100%;
       font-size: 1.5rem;
-      margin-bottom: 1rem;
+      font-weight: 500;
+      margin-bottom: .5rem;
     }
     .header-container > .header-section > .space {
-      height: 25rem;
+      height: 30rem;
     }    
 }
 
@@ -216,6 +219,7 @@
   }
 
   .description-container {
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -226,9 +230,10 @@
 
   .description-container > .description-img-container > img {
     width: 40rem;
-    padding: 1rem;
+
   }
   .description-container > .card {
+    width: 100%;
     background-color: var(--blue-light);
     padding: 2rem;
     border-radius: 2rem;
@@ -247,6 +252,10 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
+    }
+    .description-container > .description-img-container > img {
+      width: 30rem;
+
     }
   }
 
