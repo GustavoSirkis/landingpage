@@ -62,7 +62,6 @@
 
 .header-container {
     width: 100%;
-    min-height: 60rem;
     padding: 6rem;
     background-image: url(./public/assets/images/bg_header_leve.png);
     background-repeat: no-repeat;
@@ -70,6 +69,8 @@
     background-size: cover;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 .header-container > .header-section {
     padding: 1rem;
@@ -129,12 +130,16 @@
     .header-container {
       background-image: url(./public/assets/images/bg_header_mobile.png);  
       width: 100%;  
-      padding: 2rem;    
+      padding: 2rem;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;    
     }
     .header-container > .header-section {
       padding: 0;
       margin-left: 0;
       align-items: center;
+      
       
     }
 
@@ -150,7 +155,7 @@
       margin-bottom: .5rem;
     }
     .header-container > .header-section > .space {
-      height: 20rem;
+      height: 25rem;
     }    
 }
 
