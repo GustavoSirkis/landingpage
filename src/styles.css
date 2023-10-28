@@ -127,7 +127,8 @@
 @media screen and (max-width: 769px) {
     .header-container {
       background-image: url(./public/assets/images/bg_header_mobile.png);  
-      width: 100%;      
+      width: 100%;  
+      padding: 4rem;    
     }
     .header-container > .header-section {
       padding: 0;
@@ -138,7 +139,7 @@
 
     .header-container > .header-section > h1 {
       width: 100%;
-      font-size: 2.5rem;
+      font-size: 2.4rem;
       
     }
     .header-container > .header-section > p {
@@ -148,7 +149,7 @@
       margin-bottom: .5rem;
     }
     .header-container > .header-section > .space {
-      height: 30rem;
+      height: 20rem;
     }    
 }
 
@@ -235,7 +236,7 @@
   .description-container > .card {
     width: 100%;
     background-color: var(--blue-light);
-    padding: 2rem;
+    padding: 3rem 1rem;
     border-radius: 2rem;
     color: var(--white-alt);
     line-height: 1.5;
@@ -341,7 +342,7 @@
     }
     .whyapice > .whyapice-container > .whyapice-card > i {
         font-size: 5rem;
-        padding: 1.5rem;
+        padding: 1.5rem 1rem;
     }
 
     .whyapice > .whyapice-counter {
@@ -405,8 +406,8 @@
     }
 
     .details > .divisor {
-        background-color: var(--gray);
-        width: 100%;
+        background-color: var(--blue-dark);
+        width: 90%;
         height: .1rem;
         border-radius: 1rem;
         margin: 2rem;
@@ -415,7 +416,7 @@
     .details > .card {
       text-align: left;
       background-color: var(--blue-light);
-      padding: 2rem;
+      padding: 2.5rem 1rem;
       border-radius: 2rem;
       color: var(--white-alt);
       line-height: 1.5;
@@ -546,8 +547,8 @@
     .footer-wrap >  .footer-links {
         padding: 2rem;
     }
-    .footer-wrap >  .footer-links >  ul{
-        width: 90%;
+    .footer-wrap >  .footer-links >  ul {
+      width: 60%;
         margin: 0 auto;
         display: flex;
         flex-direction: row;
@@ -555,7 +556,7 @@
         justify-content: center;       
     }
     .footer-wrap  > .footer-links >  ul >  li {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         margin-right: 2rem;
     }
     .footer-wrap  > .footer-divisor {
@@ -582,6 +583,7 @@
             padding-bottom: 1rem;
         }
         .footer-wrap >  .footer-links >  ul {
+          width: 100%;
             flex-direction: column;
             align-items: flex-start;
             justify-content: space-between;
@@ -646,20 +648,20 @@
     transition: top .25s ease;
     position: absolute;
     right: 0;    
-    width: 25.5rem;
+    width: 40rem;
     margin: 1rem;
     overflow: auto;
     background: #fff;
-    border-radius: 1rem;
-    padding: 1rem;
-    height: 30rem;
+    border-radius: 2rem;
+    padding: 2rem;
+    height: 50rem;
   }
   .modal-header {
     text-align: center;
   }
   .modal-header h2 {
     font-size: 2.5rem;
-    padding: 2rem;
+    padding: 2rem 0;
   }
   .modal-header   h2   span {
     color: #27ae60;

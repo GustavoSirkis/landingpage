@@ -6,7 +6,7 @@
   --white: #fff;
   --white-alt: #fafafa;
   --black: #2d2d2d;
-  --gray: #555;
+  --gray: #474747;
   --blue-light: #138dc1;
   --blue-dark: #0072bc;
   --green: #52a476;
@@ -22,7 +22,7 @@ body {
 font-family: 'Roboto';
 font-size: 1.6rem;
 background-color: var(--white);
-color: var(--black);
+color: var(--gray);
 }
 
 * {
