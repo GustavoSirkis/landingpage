@@ -424,6 +424,7 @@
       background-color: var(--blue-light);
       padding: 2.5rem 1rem;
       border-radius: 2rem;
+      width: 30rem;
       color: var(--white-alt);
       line-height: 1.5;
       display: flex;
@@ -690,7 +691,7 @@
     margin: .5rem auto;
     background-color: #27ae60;
     color: var(--white-alt);
-    padding: 1rem 2rem;
+    
   }
   .modal-btn:hover {
     background-color: var(--blue-light);
@@ -735,6 +736,19 @@
 
 
     /* BOTÃO WHATSAPP */
+    .whatsapp-state {
+      display: none;
+    }
+    
+    .whatsapp-satate:checked + .float + .pulse  {
+      display: none;
+    }
+    
+    .whatsapp-state:checked + .float + .pulse {
+      bottom: 0;
+      visibility: hidden;
+    }
+       
 
   .float{
 	  position: fixed;
@@ -761,7 +775,7 @@
     padding: 1.5rem;
     font-weight: 500;
   }
-  
+ 
   .btn:hover,
   .btn:focus {
     background: #2ecc71;
@@ -823,8 +837,7 @@
     transform: scale(1.1);
     filter: brightness(120%);
   }
-}
-  
+}  
   @media screen and (max-width: 769px) {
       
     .modal__inner {
