@@ -114,7 +114,8 @@
 .header-container > .header-section > .header-button {
     color: var(--white-alt);
     background-color: var(--green);
-    display: block;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
