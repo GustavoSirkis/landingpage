@@ -10,7 +10,7 @@
 }
 @media screen and (max-width: 769px) {
   .outer-wrapper {
-    width: 95%;
+    width: 100%;
   }
 }
 
@@ -72,16 +72,18 @@
   text-align: center;
   transform: translateX(-50%);
   transition-timing-function: ease-out;
+  opacity: .5;
 }
 .s-type-1 .s-control > label[class^="s-c-"] {
   display: inline-block;
-  width: 12px;
-  height: 12px;
+  width:0;
+  height: 0;
   margin-right: 10px;
   border-radius: 50%;
   border: 1px solid #999;
   background-color: #efefe8;
   cursor: pointer;
+  opacity: .5;
 }
 .s-type-1 .s-nav label {
   display: none;
@@ -90,12 +92,14 @@
   padding: 5px 10px;
   transform: translateY(-50%);
   cursor: pointer;
+  opacity: .5;
 }
 .s-type-1 .s-nav label::before, .s-type-1 .s-nav label::after {
   content: "";
   display: block;
-  width: 8px;
-  height: 24px;
+  width: .7rem;
+  height: 2.3rem;
+  opacity: .8;
   background-color: var(--green);
 }
 .s-type-1 .s-nav label::before {
