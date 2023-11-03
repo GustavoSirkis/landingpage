@@ -5,8 +5,8 @@
 
   --white: #fff;
   --white-alt: #fafafa;
-  --black: #2d2d2d;
-  --gray: #474747;
+  --black: #050404;
+  --gray: #312c2c;
   --blue-light: #138dc1;
   --blue-dark: #0072bc;
   --green: #52a476;
@@ -49,13 +49,14 @@ p {
 }
 
 .button {
-padding: 1.2rem 4rem;
-font-weight: 500;    
-border-radius: 3rem;
-display: flex;
-align-items: center;
-justify-content: center;
-box-shadow: .2rem .2rem #2121210f;
+  width: 26rem;
+  height: 7rem;
+  font-weight: 700;    
+  border-radius: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: .2rem .2rem #2121210f;
 
 }
 .button:hover {
